@@ -24,3 +24,5 @@ dependencies:
     # [DH-418] okpy 1.18.1 is not compatibile with otter-grader 6.0.4 because they require conflicting versions of requests
     #  - okpy==1.18.1
       - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
+      # https://github.com/berkeley-dsep-infra/datahub/issues/8470
+      - jupyterlab-a11y-checker==0.2.9
